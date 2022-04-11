@@ -1,7 +1,10 @@
 import React from 'react'
+import { TiSocialLinkedinCircular } from "react-icons/ti";
 
 export default function RightSide() {
   return (
-    <div>RightSide</div>
+    <div>RightSide
+      <TiSocialLinkedinCircular />
+    </div>
   )
 }

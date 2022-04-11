@@ -3,7 +3,8 @@ import React from 'react'
 function Main(props) {
   return (
     <div>
-        <h1>Main</h1>
+        
+        <ul>
         <li>{props.Name}</li>
         <li>{props.Role}</li>
         <li>{props.Name}</li>
@@ -14,6 +15,7 @@ function Main(props) {
         <li>{props.Role}</li>
         <li>{props.Name}</li>
         <li>{props.Role}</li>
+        </ul>
         </div>
   )
 }
